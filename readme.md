@@ -7,7 +7,7 @@ A server manager used by ETCD.
 ```
 go get -u github.com/panco95/manager
 
-manager, err := etcd.NewManager(
+manager, err := manager.NewManager(
 	pkgs.etcdClient.Client,
 	"",
 	"9000",
